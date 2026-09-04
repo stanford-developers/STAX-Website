@@ -1,0 +1,132 @@
+{
+  "org": {
+    "shortName": "STAX",
+    "fullName": "The Stanford Initiative for Business, Taxation, and Society",
+    "parent": "Stanford Graduate School of Business",
+    "parentUrl": "https://www.gsb.stanford.edu/",
+    "url": "https://stax.stanford.edu",
+    "tagline": "Cross-disciplinary tax research to better inform practice, policy, and academia."
+  },
+  "mission": "The core mission of our group is to conduct cross-disciplinary tax research to better inform practice, policy, and academia. By bringing together insights from the three fields of Economics, Finance, and Accounting, we seek to contribute new insights that consider how taxation impacts companies, countries, and society at large. We also intend to grow and develop the next generation of tax scholars. We bring together PhD students, post-doctoral scholars, pre-doctoral fellows, and visiting scholars from around the world to discuss and conduct research.",
+  "disciplines": ["Economics", "Finance", "Accounting"],
+  "research": {
+    "intro": "Our research studies tax policies at the national, international, and state and local levels. Our research addresses timely and policy-relevant questions, often using confidential administrative tax data. Recent national work includes studies of accelerated (bonus) depreciation and domestic manufacturing benefits. International research examines firm tax planning structures, their timing around IPOs, and how they shape multinational investment and location decisions. State and local research studies the impact of high tax rates on individual residence and the role of tax incentives in firm location decisions.",
+    "categories": [
+      { "name": "Federal Tax Policy", "slug": "federal" },
+      { "name": "State & Local Tax Policy", "slug": "state-local" },
+      { "name": "International Tax Policy", "slug": "international" },
+      { "name": "Energy & Environmental Policy", "slug": "energy" }
+    ],
+    "papers": [
+      {
+        "title": "The Race Between Tax Enforcement and Tax Planning: Evidence From a Natural Experiment in Chile",
+        "authors": "STAX Faculty & Fellows",
+        "venue": "Research Spotlight — Working Paper",
+        "year": "2025",
+        "category": "international",
+        "abstract": "Profit shifting by multinational corporations is thought to reduce tax revenue around the world. While transfer-pricing regulations are meant to curtail profit shifting, there have been rising concerns that a sophisticated tax-advisory industry can limit their effectiveness. Using administrative tax and customs data from Chile in difference-in-differences event-study designs, we find the reform was ineffective in reducing multinationals' transfers to lower-tax countries and did not significantly raise tax payments."
+      },
+      {
+        "title": "When R&D Incentives Lapse: Corporate Innovation and the Tax Code",
+        "authors": "Rebecca Lester",
+        "venue": "Working Paper",
+        "year": "2024",
+        "category": "federal",
+        "abstract": "When a key tax incentive lapsed, U.S. companies sharply cut spending on research and development. This paper traces how ambiguity in the tax code causes innovation to falter and quantifies the investment response to the change."
+      },
+      {
+        "title": "Mapping the Maze: Corporate Structures and Unpaid Corporate Taxes",
+        "authors": "Rebecca Lester",
+        "venue": "Working Paper",
+        "year": "2024",
+        "category": "federal",
+        "abstract": "Complex corporate structures are used by some taxpayers to reduce their tax bills. This work maps where enforcement could recover billions in unpaid taxes and studies how structure complexity relates to effective tax rates."
+      },
+      {
+        "title": "Best-Laid Plans: How Multinationals Minimize Taxes",
+        "authors": "Clare Doyle, Juan Carlos Suárez Serrato",
+        "venue": "Policy Brief",
+        "year": "2024",
+        "category": "international",
+        "abstract": "An examination of intricate tax-planning strategies used by multinational firms, and of the measurement problems in quantifying their prevalence and revenue impact."
+      },
+      {
+        "title": "Accelerated Depreciation and Domestic Manufacturing Investment",
+        "authors": "STAX Faculty & Fellows",
+        "venue": "Working Paper",
+        "year": "2024",
+        "category": "federal",
+        "abstract": "How accelerated (bonus) depreciation and domestic-manufacturing benefits change the level and timing of firm investment, using administrative data on capital expenditure."
+      },
+      {
+        "title": "Taxes and the Geography of Where People Live and Firms Locate",
+        "authors": "Joshua Rauh",
+        "venue": "Working Paper",
+        "year": "2024",
+        "category": "state-local",
+        "abstract": "State and local research on the impact of high tax rates on individual residence decisions and the role of state and local tax incentives in determining where firms choose to locate."
+      }
+    ],
+    "note": "Paper list is representative, drawn from public STAX research topics and Stanford Report coverage. Final titles, authors, and abstracts to be confirmed by STAX before launch."
+  },
+  "people": {
+    "faculty": [
+      { "name": "Rebecca Lester", "title": "Professor", "role": "Faculty Co-Director" },
+      { "name": "Joshua Rauh", "title": "Professor", "role": "Faculty" },
+      { "name": "Juan Carlos Suárez Serrato", "title": "Professor", "role": "Faculty" }
+    ],
+    "team": [
+      { "name": "Peter Banks", "title": "PhD Student" },
+      { "name": "Qiaoyi Chen", "title": "Postdoctoral Scholar" },
+      { "name": "Maya Donovan", "title": "Research Fellow" },
+      { "name": "Clare Doyle", "title": "Research Fellow" },
+      { "name": "Michael Droste", "title": "Postdoctoral Scholar" },
+      { "name": "Manon Francois", "title": "Postdoctoral Fellow" },
+      { "name": "Aaron Gelberg", "title": "Research Fellow" },
+      { "name": "Jason Harrison", "title": "Research Fellow" },
+      { "name": "Jonathan Hennessy", "title": "Senior Research Manager" },
+      { "name": "Zaynah Javed", "title": "Research Fellow" },
+      { "name": "Natalie Millar", "title": "Postdoctoral Scholar" },
+      { "name": "Mauricio Morfin Aispuro", "title": "Research Fellow" },
+      { "name": "Priyanka Parikh", "title": "Research Fellow" },
+      { "name": "Kevin Roberts", "title": "Postdoctoral Scholar" },
+      { "name": "Xuan Su", "title": "PhD Student" }
+    ],
+    "alumni": [
+      { "name": "Lauren Pinard", "title": "Research Fellow" },
+      { "name": "Eddie Yu", "title": "Research Fellow" }
+    ]
+  },
+  "events": {
+    "series": "Tax Research Workshop",
+    "upcoming": [
+      { "series": "Tax Research Workshop", "number": 14, "title": "Tax Research Workshop #14", "date": "2025-10-16", "time": "1:00–2:00pm PDT", "location": "BC104", "status": "upcoming", "note": "Placeholder — confirm date" }
+    ],
+    "recent": [
+      { "series": "Tax Research Workshop", "number": 13, "title": "Tax Research Workshop #13", "date": "2025-05-15", "time": "1:00–2:00pm PDT", "location": "BC104", "status": "past" },
+      { "series": "Tax Research Workshop", "number": 12, "title": "Tax Research Workshop #12", "date": "2025-03-13", "time": "4:00–5:00pm PDT", "location": "TBD", "status": "past" }
+    ]
+  },
+  "news": [
+    { "title": "Mapping the maze where the IRS could find billions in unpaid taxes", "outlet": "Stanford Report", "kind": "In the News", "date": "2024-10-30", "blurb": "Rebecca Lester discusses complex corporate structures used by some taxpayers to reduce their tax bills." },
+    { "title": "The tax-code oversight causing innovation to falter", "outlet": "Stanford Report", "kind": "In the News", "date": "2024-10-22", "blurb": "Rebecca Lester's new research finds that when a tax incentive lapsed, U.S. companies slashed their spending on research and development." },
+    { "title": "Best-laid plans: how multinationals minimize taxes", "outlet": "STAX", "kind": "Policy Brief", "date": "2024-04-18", "blurb": "Clare Doyle and Prof. Juan Carlos Suárez Serrato discuss tax-planning strategies and the problems of quantifying their impact." },
+    { "title": "Business, Government, and Society Forum", "outlet": "Stanford GSB", "kind": "Announcement", "date": "2024-04-16", "blurb": "Professor Rebecca Lester (moderator) and Juan Carlos Suárez Serrato joined a forum on free markets, technology, and sustainability." }
+  ],
+  "careers": {
+    "intro": "STAX brings together PhD students, post-doctoral scholars, pre-doctoral fellows, and visiting scholars from around the world. Open positions are posted through Stanford's official application portals.",
+    "portalUrl": "https://careersearch.stanford.edu/",
+    "emptyState": "There are no open positions at this time. Please check back — new predoctoral, postdoctoral, and research-fellow openings are posted here and on Stanford's careers portal.",
+    "sampleListings": [
+      { "title": "Predoctoral Research Fellow", "type": "Full-time · 2-year", "location": "Stanford, CA", "applyUrl": "https://careersearch.stanford.edu/", "blurb": "Work directly with STAX faculty on empirical tax research using administrative data before applying to PhD programs.", "example": true },
+      { "title": "Postdoctoral Scholar", "type": "Full-time", "location": "Stanford, CA", "applyUrl": "https://careersearch.stanford.edu/", "blurb": "Lead independent and collaborative projects on tax policy in economics, finance, and accounting.", "example": true },
+      { "title": "Research Fellow", "type": "Full-time", "location": "Stanford, CA", "applyUrl": "https://careersearch.stanford.edu/", "blurb": "Support data-intensive tax research and workshop programming across the STAX team.", "example": true }
+    ],
+    "note": "Positions are not yet posted. Listings above are examples showing the layout; each 'Apply' link points to Stanford's careers portal and will be replaced with a specific job requisition URL."
+  },
+  "contact": {
+    "affiliation": "Stanford Graduate School of Business",
+    "address": "655 Knight Way, Stanford, CA 94305",
+    "email": "stax@stanford.edu"
+  }
+}

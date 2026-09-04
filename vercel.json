@@ -1,0 +1,11 @@
+{
+  "outputDirectory": ".",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/preview/index.html" },
+    { "source": "/public/:path*", "destination": "/public/:path*" },
+    { "source": "/preview/:path*", "destination": "/preview/:path*" },
+    { "source": "/:path*", "destination": "/preview/:path*" }
+  ]
+}
