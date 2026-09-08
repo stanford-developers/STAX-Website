@@ -1,4 +1,4 @@
-# STAX Website Redesign
+# STAX Website -- BUILD IN PROGRESS
 
 Redesign of the website for **STAX — The Stanford Initiative for Business, Taxation, and Society**, a cross-disciplinary tax research group at the Stanford Graduate School of Business (Economics · Finance · Accounting).
 
@@ -22,15 +22,6 @@ docs/
 
 **To view:** open `explorations/index.html` in a browser and click into each direction. Everything runs from disk — no build step, no server.
 
-## The brief (from the client)
-
-- Simple and minimal, like the two reference sites: **GCAP** (globalcapitalallocation.com) and **Stanford RegLab** (reglab.stanford.edu).
-- A clean **About** page with headshots + positions (RegLab-style).
-- A **Research** page like GCAP's — the current STAX site has *"fonts way too big for the abstracts and everything looks way too busy."* Fixed here: abstracts are set small, calm, and airy.
-- Pages: **Home, Research, About, Events, Careers** (at least).
-- A **Careers** page listing open jobs linked to Stanford application portals — not populated yet, but ready to be.
-- Some **basic scrolling animations**.
-- **Must not look like a generic AI site** ("no pills and shit") — so: no decorative pill/badge chips, no purple gradients, no glassmorphism, no Inter/Roboto, no emoji. Each direction commits to a real, distinctive aesthetic.
 
 ## The three directions
 
