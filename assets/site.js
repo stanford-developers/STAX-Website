@@ -48,7 +48,7 @@
           '<a class="fl" href="' + root + 'careers.html">Work With Us</a>' +
         '</div>' +
         '<div><h5>Contact</h5>' +
-          '<a class="fl" href="mailto:stax@stanford.edu">stax@stanford.edu</a>' +
+          // '<a class="fl" href="mailto:stax@stanford.edu">stax@stanford.edu</a>' +
           '<a class="fl" href="https://www.gsb.stanford.edu/">655 Knight Way<br>Stanford, CA 94305</a>' +
         '</div>' +
       '</div>' +
