@@ -100,29 +100,53 @@
   }
 
   // Give the repeated "Read paper" links a distinct accessible name
-  document.querySelectorAll('.paper').forEach(function (p) {
-    var t = p.querySelector('h3');
-    var dl = p.querySelector('.dl');
-    if (t && dl && !dl.getAttribute('aria-label')) {
-      dl.setAttribute('aria-label', 'Read paper: ' + t.textContent.trim());
-    }
-  });
+  var labelPapers = function (scope) {
+    scope.querySelectorAll('.paper').forEach(function (p) {
+      var t = p.querySelector('h3');
+      var dl = p.querySelector('.dl');
+      if (t && dl && !dl.getAttribute('aria-label')) {
+        dl.setAttribute('aria-label', 'Read paper: ' + t.textContent.trim());
+      }
+    });
+  };
+  labelPapers(document);
 
   // Reveal on scroll
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var reveals = document.querySelectorAll('.reveal');
-  if (reduce || !('IntersectionObserver' in window)) {
-    reveals.forEach(function (el) { el.classList.add('in'); });
-  } else {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
-      });
-    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
-    reveals.forEach(function (el, i) {
+  var io = (reduce || !('IntersectionObserver' in window)) ? null : new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+  var reveal = function (els) {
+    els.forEach(function (el, i) {
+      if (!io) { el.classList.add('in'); return; }
       el.style.transitionDelay = (Math.min(i % 3, 3) * 70) + 'ms';
       io.observe(el);
     });
+  };
+  reveal(document.querySelectorAll('.reveal'));
+
+  // Home page: show every paper marked data-featured="true" on the Research page
+  var featuredBox = document.getElementById('featured-papers');
+  if (featuredBox) {
+    fetch(root + 'research.html')
+      .then(function (r) {
+        if (!r.ok) throw new Error('research.html: HTTP ' + r.status);
+        return r.text();
+      })
+      .then(function (html) {
+        var picks = new DOMParser().parseFromString(html, 'text/html')
+          .querySelectorAll('.paper[data-featured="true"]');
+        if (!picks.length) throw new Error('no featured papers');
+        picks.forEach(function (p) { featuredBox.appendChild(document.importNode(p, true)); });
+        labelPapers(featuredBox);
+        reveal(featuredBox.querySelectorAll('.reveal'));
+      })
+      .catch(function () {
+        // Nothing featured (or research.html didn't load): hide the section instead of showing an empty list
+        featuredBox.closest('section').hidden = true;
+      });
   }
 
   // Research category filter (aria-pressed toggle buttons)
