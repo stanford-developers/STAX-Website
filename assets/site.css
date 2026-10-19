@@ -197,7 +197,7 @@ section.block{padding:110px 0}
 .news-featured .nf-fig{margin:0}
 .news-featured .nf-img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:10px;background:#eee}
 /* photo credit: sits above the card-wide link so its own links stay clickable */
-.news-featured figcaption{position:relative;z-index:1;font-size:12.5px;color:var(--soft);margin-top:8px}
+.news-featured figcaption{position:relative;z-index:1;font-size:11px;color:var(--soft);margin-top:6px}
 .news-featured figcaption a:hover{color:var(--accent)}
 /* the headline link stretches over the whole card, so a click anywhere opens the story */
 .news-featured a.nf-t::after{content:"";position:absolute;inset:0}
